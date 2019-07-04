@@ -1,0 +1,46 @@
+[
+    {
+        "name": "first_name",
+        "type": "STRING"
+    },
+    {
+        "name": "last_name",
+        "type": "STRING"
+    },
+    {
+        "name": "metadata",
+        "type": "RECORD",
+        "fields": [
+            {
+                "name": "skills",
+                "type": "RECORD",
+                "fields": [
+                    {
+                        "name": "java",
+                        "type": "RECORD",
+                        "fields": [
+                            {
+                                "name": "rating",
+                                "type": "NUMERIC"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "csharp",
+                        "type": "RECORD",
+                        "fields": [
+                            {
+                                "name": "rating",
+                                "type": "NUMERIC"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "age",
+                "type": "NUMERIC"
+            }
+        ]
+    }
+]

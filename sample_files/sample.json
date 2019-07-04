@@ -1,0 +1,88 @@
+[
+    {
+        "name": "eventType",
+        "type": "STRING"
+    },
+    {
+        "name": "timestamp",
+        "type": "STRING"
+    },
+    {
+        "name": "guid",
+        "type": "STRING"
+    },
+    {
+        "name": "correlationId",
+        "type": "STRING"
+    },
+    {
+        "name": "sourceSystem",
+        "type": "STRING"
+    },
+    {
+        "name": "version",
+        "type": "STRING"
+    },
+    {
+        "name": "payload",
+        "type": "RECORD",
+        "fields": [
+            {
+                "name": "version",
+                "type": "STRING"
+            },
+            {
+                "name": "apcn",
+                "type": "STRING"
+            },
+            {
+                "name": "channel",
+                "type": "STRING"
+            },
+            {
+                "name": "articleCount",
+                "type": "INTEGER"
+            },
+            {
+                "name": "state",
+                "type": "STRING"
+            },
+            {
+                "name": "milestone",
+                "type": "STRING"
+            },
+            {
+                "name": "recaptchaScore",
+                "type": "FLOAT"
+            },
+            {
+                "name": "ipAddress",
+                "type": "STRING"
+            },
+            {
+                "name": "httpResponseCode",
+                "type": "STRING"
+            },
+            {
+                "name": "errorMsg",
+                "type": "STRING"
+            },
+            {
+                "name": "userAgent",
+                "type": "STRING"
+            },
+            {
+                "name": "edd",
+                "type": "STRING"
+            },
+            {
+                "name": "flightStatus",
+                "type": "STRING"
+            },
+            {
+                "name": "querySource",
+                "type": "STRING"
+            }
+        ]
+    }
+]
