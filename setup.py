@@ -9,7 +9,7 @@ setup(
     packages = ['sje'],
     install_requires = [
         'pytest==5.0.0',
-        'PyYAML==5.1.1',
+        'PyYAML==5.4',
         'sqlparse==0.3.0'
     ],
     entry_points = {
